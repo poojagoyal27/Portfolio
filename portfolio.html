@@ -1,0 +1,666 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pooja Goyal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
+  <!-- HOSTED -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+
+
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images\favicon.png" type="image/gif">
+
+  <!-- HOSTED -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="overflow-wrap">
+
+<!-- HOME -->
+  <div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal">
+      <div class="carousel-wrap">
+        <div class="window">
+          <div id="carousel">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
+          </div>
+          <i class="fas fa-chevron-left" id="prev"></i>
+          <i class="fas fa-chevron-right" id="next"></i>
+        </div>
+
+      </div>
+      <div class="info-box">
+        <div class="title"></div>
+        <div class="tag"></div>
+        <div class="detail"></div>
+        <a href="#" target="_blank"><div class="button"><i class="fas fa-external-link-square-alt"></i>VIEW SITE</div></a>
+      </div>
+      <i class="close fas fa-window-close"></i>
+    </div>
+  </div>
+
+  <section id="home" class="flex height-fix">
+    <div id="pt" class="canvas"></div>
+    <div class="flex">
+
+      <div class="text">
+        Hello, I'm <span class="highlight">Pooja Goyal</span>.
+        <br>
+        I'm a full-stack web developer.
+      </div>
+
+      <div class="button page-link" dest="about">View my work <i class="fas fa-arrow-right"></i></div>
+
+      <nav class="flex">
+        <div class="link-wrap">
+          <div class="active page-link" dest="home">home</div>
+          <div class="page-link" dest="about">about</div>
+          <div class="page-link" dest="portfolio">portfolio</div>
+          <div class="page-link" dest="blog">skills</div>
+          <div class="page-link" dest="contact">contact</div>
+        </div>
+        <!--<i class="fas fa-bars"></i>-->
+      </nav>
+    </div>
+
+  </section>
+
+<!-- ABOUT -->
+  <section id="about">
+    <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".3s"></div>
+
+      <div class="flex row label-wrap">
+        <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="fas fa-tachometer-alt" style="font-size: 55px;"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold" style="font-weight: bold;">Fast</div>
+            <div style="font-size:19px;">Fast load times and lag free interaction, my highest priority.</div>
+          </div>
+        </div>
+
+        <div class="flex bullet-wrap " >
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+            <div class="hexagon">
+              <i class="fas fa-tablet-alt" style="font-size: 55px;"></i>
+            </div>
+          </div>
+          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+            <div class="label bold" style="font-weight: bold;">Responsive</div>
+            <div style="font-size:19px;">My layouts will work on any device, big or small.</div>
+          </div>
+        </div>
+        </div>
+        <div class="flex row-gt-sm">
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+              <div class="hexagon">
+                <i class="fas fa-lightbulb" style="font-size: 55px;"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+              <div class="label bold" style="font-weight: bold;">Intuitive</div>
+              <div style="font-size:19px;">Strong preference for easy to use, intuitive UX/UI.</div>
+            </div>
+          </div>
+
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".3s">
+              <div class="hexagon">
+                <i class="fas fa-rocket" style="font-size: 55px;"></i>
+              </div>
+            </div>
+            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+              <div class="label bold" style="font-weight: bold;">Dynamic</div>
+              <div style="font-size:19px;">Websites don't have to be static, I love making pages come to life.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+          <img src="Images/me.jpg" class="me">
+          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+
+        </div>
+
+
+          <div>
+		  <div class="label bold" style="font-weight: bold;">Who am I?</div>
+            <p style="font-size: 25px;">A self-motivated and highly talented IT professional </br>with huge knowledge and proficiency in web development tools. </br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.  </p>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!-- PORTFOLIO -->
+  <section class="flex" id="portfolio">
+
+    <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".2s"></div>
+
+    <div class="filter-wrap waypoint" data-animation="fade-in">
+      <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        <div class="filter" data-filter=".node">ANGULAR</div>
+        <div class="filter" data-filter=".rails">REACT</div>
+        <div class="filter" data-filter=".js">.NET</div>
+      </div>
+      <div class="float-bar">
+        <div class="flex row">
+          <div class="filter" data-filter="all">ALL</div>
+          <div class="filter" data-filter=".node">ANGULAR</div>
+          <div class="filter" data-filter=".rails">REACT</div>
+          <div class="filter" data-filter=".js">.NET</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="container flex row wrap waypoint">
+      <div class="mix js" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">ONLINE RESTAURANT</div>
+            <span class="highlight">ASP.NET and JavaScript</span>
+          </div>
+          <div class="button" id="roambi">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">ONLINE BOOK STORE</div>
+            <span class="highlight">React and JavaScript</span>
+          </div>
+          <div class="button" id="walker">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix node" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">VIRTUAL INSTRUMENT</div>
+            <span class="highlight">Angular</span>
+          </div>
+          <div class="button" id="mystand">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix js" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">DME Billing Software</div>
+            <span class="highlight">C#, ASP.NET MVC and JavaScript</span>
+          </div>
+          <div class="button" id="never">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">BITCOIN</div>
+            <span class="highlight">ReactJS</span>
+          </div>
+          <div class="button" id="powur">LEARN MORE</div>
+        </div>
+      </div>
+
+
+      <div class="mix node" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">COLLEGE DATABASE DESIGN</div>
+            <span class="highlight">Angular</span>
+          </div>
+          <div class="button" id="themall">LEARN MORE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- SKILLS -->
+  <section id="blog">
+    <div class="container flex">
+
+      <div class="header waypoint" data-animation="slide-in-left">SKILLS</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".3s"></div>
+
+
+
+      <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+		<h3><i class="fas fa-globe"></i> WEB DEVELOPMENT</h3>
+          <div class="bar flex">
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">HTML & CSS</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">Bootstrap</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">React</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">JavaScript</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">Angular</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Node.js</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">PHP</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:75%">
+              <div class="tag bold flex">.NET Framework</div>
+            </div>
+            <span>75%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:75%">
+              <div class="tag bold flex">JSON</div>
+            </div>
+            <span>75%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">jQuery</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+        </div>
+
+        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+		<h3><i class="fas fa-desktop"></i> PROGRAMMING LANGUAGES</h3>
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">C#</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Java</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">C++</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">C</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Python</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">ASP.NET</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">VB.NET</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:50%">
+              <div class="tag bold flex">Ruby on Rails</div>
+            </div>
+            <span>50%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:30%">
+              <div class="tag bold flex">IOS/Swift</div>
+            </div>
+            <span>30%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">AJAX</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+        </div>
+      </div>
+
+	  <div class="skills-wrapper flex row-gt-sm">
+        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+		<h3><i class="fas fa-database"></i> DATABASES AND DBMS</h3>
+          <div class="bar flex">
+            <div class="bar fill" style="width:75%">
+              <div class="tag bold flex">MySQL</div>
+            </div>
+            <span>75%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">SQL Server</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:60%">
+              <div class="tag bold flex">PL/SQL</div>
+            </div>
+            <span>60%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:60%">
+              <div class="tag bold flex">Oracle 8i</div>
+            </div>
+            <span>60%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:70%">
+              <div class="tag bold flex">Microsoft Access</div>
+            </div>
+            <span>70%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:50%">
+              <div class="tag bold flex">MongoDB</div>
+            </div>
+            <span>50%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:55%">
+              <div class="tag bold flex">NoSQL</div>
+            </div>
+            <span>55%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:45%">
+              <div class="tag bold flex">T-SQL</div>
+            </div>
+            <span>45%</span>
+          </div>
+
+		  <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">PostgresSQL</div>
+            </div>
+            <span>65%</span>
+          </div>
+        </div>
+
+        <div class="flex flex-50-gt-sm waypoint bars-wrap"  data-animation="slide-in-right">
+		<h3><i class="fab fa-windows"></i> DEVELOPMENT TOOLS</h3>
+          <div class="bar flex">
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">Visual Studios</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">Eclipse</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">CodeBlocks</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:80%">
+              <div class="tag bold flex">GitHub</div>
+            </div>
+            <span>80%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Git</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:90%">
+              <div class="tag bold flex">MVC</div>
+            </div>
+            <span>90%</span>
+          </div>
+
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:65%">
+              <div class="tag bold flex">Vue</div>
+            </div>
+            <span>65%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:55%">
+              <div class="tag bold flex">Scrum</div>
+            </div>
+            <span>50%</span>
+          </div>
+
+          <div class="bar flex">
+            <div class="bar fill" style="width:75%">
+              <div class="tag bold flex">SharePoint</div>
+            </div>
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+      <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+    </svg>
+    <div class="container flex">
+      <div class="header waypoint" data-animation="slide-in-left">CONTACT</div>
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".15s"></div>
+	  <div class="waypoint" data-animation="pop-in" data-delay=".3s">
+		<div class="contact-details">
+			<div>
+			<i class="fa fa-home fa-lg"></i>
+			<span>4909 N Backer Ave, Fresno, CA, 93726</span>
+			</div></br>
+
+			<div>
+			<i class="fa fa-phone fa-lg"></i>
+			<span>Phone: +1 (650) 457-9359</span>
+			</div></br>
+
+			<div>
+			<i class="fa fa-envelope fa-lg"></i>
+			<span>Email: pgoyal27@mail.fresnostate.edu</span>
+			</div><br>
+		</div>
+	  </div></br>
+      <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".3s">Have a question or want to work together?</div>
+      <form class="waypoint" data-animation="pop-in" data-delay=".3s" id="contact-form">
+        <input placeholder="Name" type="text" name="name" required>
+        <input placeholder="Enter email" type="email" name="email" required>
+        <textarea placeholder="Your Message" type="text" name="message"></textarea>
+        <div id="success">
+          <div>Your message was sent successfully. Thanks!<span id="close" class="fas fa-close"></span></div>
+        </div>
+        <input class="button" type="submit" id="submit" value=SUBMIT>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+
+     <i class="fas fa-angle-double-up page-link" dest="home"></i>
+
+    <div class="icon-wrap flex row">
+      <a href="https://www.linkedin.com/in/pooja-g-595069b4/">
+        <div class="flex icon" id="icon-2">
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </a>
+
+
+      <a href="https://github.com/poojagoyal27">
+        <div class="flex icon" id="icon-5">
+          <i class="fab fa-github "></i>
+        </div>
+      </a>
+	  <a href="https://www.instagram.com/poojagoyall/">
+        <div class="flex icon" id="icon-5">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </a>
+
+    </div>
+    <div class="info-box">
+      <div class="footnote">DESIGNED AND DEVELOPED BY POOJA GOYAL<span class="highlight ">&copy;2019</span></div>
+    </div>
+  </footer>
+
+</div>
+
+<div id="preload">
+   <img src="Images/me.jpg"/>
+   <img src="img/filler.jpg"/>
+   <img src="img/thumb-1.jpg"/>
+   <img src="img/thumb-2.jpg"/>
+   <img src="img/thumb-3.jpg"/>
+   <img src="img/thumb-4.jpg"/>
+   <img src="img/thumb-5.jpg"/>
+   <img src="img/thumb-6.jpg"/>
+   <img src="img/blog-1.jpg"/>
+   <img src="img/blog-2.jpg"/>
+   <img src="img/blog-3.jpg"/>
+   <img src="img/blog-4.jpg"/>
+   <img src="img/slides/mystand-0.jpg"/>
+   <img src="img/slides/mystand-1.jpg"/>
+   <img src="img/slides/mystand-2.jpg"/>
+   <img src="img/slides/never-0.jpg"/>
+   <img src="img/slides/never-1.jpg"/>
+   <img src="img/slides/never-2.jpg"/>
+   <img src="img/slides/powur-0.jpg"/>
+   <img src="img/slides/powur-1.jpg"/>
+   <img src="img/slides/powur-2.jpg"/>
+   <img src="img/slides/roambi-0.jpg"/>
+   <img src="img/slides/roambi-1.jpg"/>
+   <img src="img/slides/roambi-2.jpg"/>
+   <img src="img/slides/themall-0.jpg"/>
+   <img src="img/slides/themall-1.jpg"/>
+   <img src="img/slides/themall-2.jpg"/>
+   <img src="img/slides/walker-0.jpg"/>
+   <img src="img/slides/walker-1.jpg"/>
+   <img src="img/slides/walker-2.jpg"/>
+</div>
+
+</body>
+</html>
+
+<script src="scripts/canvas.js"></script>
